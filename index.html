@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark bg-opacity-25">
+        <div class = "container">
+            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+              <i class="bi bi-shop"></i>
+                <span class = "text-uppercase fw-lighter ms-2">Shopify</span>
+            </a>
+           <div
+             class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#home">Home</a>
+            
+          </div>
+          
+          <div class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#shop">Shop</a>
+            </div>
+              
+            <div
+             class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#about">About</a>
+            
+          </div>
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact
+            </a
+             class="dropdown-menu">
+            <a class="dropdown-item" href="#">0334984 0133</a>
+             
+            </div>
+          
+            
+            
+        <div>
+          <span><a href="./login.html"><i class="bi bi-person-fill"></i></a></span>
+          <span class="bg-success bg-opacity-10 text-success m-2 px-2 py-2 rounded-circle">
+            <a class="" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+              aria-controls="offcanvasExample">
+              <i class="bi bi-bag-check"></i>
+            </a>
+          </span>
+          <span class="bg-success bg-opacity-10 text-success m-2 px-2 py-2 rounded-circle">
+            <a class="" data-bs-toggle="offcanvas" href="#login" role="button" aria-controls="offcanvasExample">
+              <i class="bi bi-person-fill">Sign up</i>
+            </a>
+          </span>
+        </div>
+      </div>
+      </div>
+    </nav>
+ <section>
+      
+      <div id = "header" class = "vh-100 "  style = "padding-top: 104px;
+     
+      
+      background-image:url(scandinavian-interior-mockup-wall-decal-background\ 1.png);
+      ">
+      
+      <div class="text-dark  fs-5 " st>
+         <h4>New arrivals</h4>
+        <span class="text-uppercase fs-5"> <h1>Discover our <br>New Collection</h1>
+        </span>
+      </div>
+                    
+  
+          <!-- <button class = "" type = "button" data-bs-target="#header" data-bs-slide = "prev">
+              <span class = "carou"></span>
+          </button>
+          <button class = "" type = "button" data-bs-target="#header" data-bs-slide = "next">
+              <span class = ""></span>
+          </button> -->
+        </section>
+        </header>
+
+      <main>
+        <section class="cart">
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel tw-bold text-success">Cart <i class="bi bi-cart"></i></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" id="cartItems">
+    
+            </div>
+            <button class="btn btn-success rounded-0">check out <i class="bi bi-arrow-right"></i></button>
+          </div>
+        </section>
+        <section class="login">
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="login" aria-labelledby="#loginLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="loginLabel">Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" id="login">
+              <form action="">
+                <div class="mb-3">
+                  <label for="email" class="form-label">email</label>
+                  <input type="email" class="form-control" id="email" placeholder="abc@abc.com">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="min 5 character">
+                </div>
+                <button class="btn btn-success rounded-0">login <i class="bi bi-arrow-right"></i></button>
+                <span><a class="" data-bs-toggle="offcanvas" href="#register" role="button" aria-controls="offcanvasExample">
+                  Register Now!
+                </a></span>
+              </form>
+          </div>
+        </section>
+        <section class="register">
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="register" aria-labelledby="#registerLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="registerLabel">register</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" id="login">
+              <form action="">
+                <div class="mb-3">
+                  <label for="email" class="form-label">email</label>
+                  <input type="email" class="form-control" id="email" placeholder="abc@abc.com">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="min 5 character">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Confirm Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="min 5 character">
+                </div>
+                <button class="btn btn-success rounded-0">Register <i class="bi bi-arrow-right"></i></button>
+                <span><a class="" data-bs-toggle="offcanvas" href="#login" role="button" aria-controls="offcanvasExample">
+                  Login Now
+                </a></span>
+              </form>
+          </div>
+        </section>
+        <section class="products">
+          <div class="container">
+    
+            <h1 class="h3 my-5 justify-content-center">Browse The Range</h1>
+    
+            <div class="products">
+              <div class="row" id="productsRow d-flex">
+                <div class="col-lg-1 " ></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3"></div>
+              </div>
+              
+              </div>
+            </div>
+          </div>
+        </section>
+    
+      </main>
+
+
+      <section id = "newsletter" class = "py-5">
+        <div class = "container">
+            <div class = "d-flex flex-column align-items-center justify-content-center">
+                <div class = "title text-center pt-3 pb-5">
+                    <h2 class = "position-relative d-inline-block ms-4">Newsletter Subscription</h2>
+                </div>
+
+                <p class = "text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem officia accusantium maiores quisquam dolorum?</p>
+               
+                 <div class="text-center">   
+                  <label for="email" class="form-label">email</label>
+                  <input type="email" class="form-control" id="email" placeholder="abc@abc.com">
+            </div>
+                    <button class = "btn btn-primary" type = "submit">Subscribe
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class = "bg-dark py-5">
+      <div class = "container">
+          <div class = "row text-white g-4">
+              <div class = "col-md-6 col-lg-3">
+                  <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Attire</a>
+                  <p class = "text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+              </div>
+
+              <div class = "col-md-6 col-lg-3">
+                  <h5 class = "fw-light">Links</h5>
+                  <ul class = "list-unstyled">
+                      <li class = "my-3">
+                          <a href = "#" class = "text-white text-decoration-none text-muted">
+                              <i class = "fas fa-chevron-right me-1"></i> Home
+                          </a>
+                      </li>
+                      <li class = "my-3">
+                          <a href = "#" class = "text-white text-decoration-none text-muted">
+                              <i class = "fas fa-chevron-right me-1"></i> Collection
+                          </a>
+                      </li>
+                      <li class = "my-3">
+                          <a href = "#" class = "text-white text-decoration-none text-muted">
+                              <i class = "fas fa-chevron-right me-1"></i> Blogs
+                          </a>
+                      </li>
+                      <li class = "my-3">
+                          <a href = "#" class = "text-white text-decoration-none text-muted">
+                              <i class = "fas fa-chevron-right me-1"></i> About Us
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class = "col-md-6 col-lg-3">
+                  <h5 class = "fw-light mb-3">Contact Us</h5>
+                  <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                      <span class = "me-3">
+                          <i class = "fas fa-map-marked-alt"></i>
+                      </span>
+                      <span class = "fw-light">
+                          Albert Street, New York, AS 756, United States of America
+                      </span>
+                  </div>
+                  <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                      <span class = "me-3">
+                          <i class = "fas fa-envelope"></i>
+                      </span>
+                      <span class = "fw-light">
+                          attire.support@gmail.com
+                      </span>
+                  </div>
+                  <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                      <span class = "me-3">
+                          <i class = "fas fa-phone-alt"></i>
+                      </span>
+                      <span class = "fw-light">
+                          +9786 6776 236
+                      </span>
+                  </div>
+              </div>
+
+              <div class = "col-md-6 col-lg-3">
+                  <h5 class = "fw-light mb-3">Follow Us</h5>
+                  <div>
+                      <ul class = "list-unstyled d-flex">
+                          <li>
+                              <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                  <i class = "fab fa-facebook-f"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                  <i class = "fab fa-twitter"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                  <i class = "fab fa-instagram"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                  <i class = "fab fa-pinterest"></i>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+      <script src="app.js"></script>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+  
+  
+  
+      <!-- jquery -->
+      <script src = "js/jquery-3.6.0.js"></script>
+      <!-- isotope js -->
+      <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+      <!-- bootstrap js -->
+      <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
